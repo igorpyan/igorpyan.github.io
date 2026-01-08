@@ -1,17 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test Page</title>
-  <style>
-    body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
-    h1 { color: #2c3e50; }
-    p { font-size: 18px; }
-  </style>
+    <meta charset="UTF-8">
+    <title>Security Disclosures | Your Name</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background-color: #ffffff;
+            color: #111111;
+            margin: 0;
+            padding: 2rem;
+        }
+        h1 {
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 0.6rem;
+        }
+        a {
+            color: #0969da;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 3rem;
+            font-size: 0.85rem;
+            color: #666666;
+        }
+    </style>
 </head>
 <body>
-  <h1>Hello! I'm igorpyan</h1>
-  <p>This is a test page hosted on GitHub Pages.</p>
+<h1>Security Disclosures</h1>
+<ul>
+    <li>
+        <a href="https://github.com/nextcloud/security-advisories/security/advisories/GHSA-5vw6-6prg-gvw6">
+            CVE-2022-24889 - Possibility to force an admin to install recommended applications
+        </a>
+    </li>
+    <li>
+        <a href="https://github.com/checkmarx-ts/checkmarx-python-sdk/issues/168">
+            Multiple certificate validation issues
+        </a>
+    </li>
+    <li>
+        <a href="https://n2ws.zendesk.com/hc/en-us/articles/31900526809117-Critical-Vulnerabilities-in-N2W-Prior-Versions-Resolved-in-versions-4-3-2-4-4-0-and-4-4-1">
+            CVE-2025-32991 — Remote Code Execution via RESTful API
+        </a>
+    </li>
+    <li>
+        <a href="https://n2ws.zendesk.com/hc/en-us/articles/31900526809117-Critical-Vulnerabilities-in-N2W-Prior-Versions-Resolved-in-versions-4-3-2-4-4-0-and-4-4-1">
+            CVE-2025-59706 — API Parameter Validation Bypass
+        </a>
+    </li>
+    <li>
+        <a href="https://n2ws.zendesk.com/hc/en-us/articles/31900526809117-Critical-Vulnerabilities-in-N2W-Prior-Versions-Resolved-in-versions-4-3-2-4-4-0-and-4-4-1">
+            CVE-2025-59707 — Insider Attack Surface for Credential Theft
+        </a>
+    </li>
+</ul>
+<footer>
+    igorpyan
+    <a href="https://github.com/igorpyan/">GitHub</a>
+</footer>
 </body>
 </html>
